@@ -1,0 +1,12 @@
+{
+  "name": "techforward-consulting",
+  "version": "1.0.0",
+  "description": "Static website for IT consulting business",
+  "scripts": {
+    "test": "node tests/test.js",
+    "serve": "npx serve ."
+  },
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.12"
+  }
+}
