@@ -10,6 +10,8 @@ jack-site/
 ├── about.html      # About page - bio, experience timeline, certifications
 ├── contact.html    # Contact page - form and contact details
 ├── styles.css      # All styles for the site
+├── images/         # Image assets
+│   └── profile.jpg # Profile photo for about page
 ├── tests/          # Test suite
 │   └── test.js     # HTML validation and link checking tests
 ├── package.json    # Node.js dependencies (for testing only)
@@ -57,19 +59,13 @@ All content is in plain HTML files. To customize:
 4. **Services**: Modify the service cards in `index.html`
 5. **Experience**: Update the timeline in `about.html`
 
-### Add Your Photo
+### Change Your Photo
 
-In `about.html`, replace the placeholder:
+Replace the profile image at `images/profile.jpg` with your own photo. For best results:
 
-```html
-<div class="about-image__placeholder">[Your Photo Here]</div>
-```
-
-With an actual image:
-
-```html
-<img src="your-photo.jpg" alt="Your Name" class="about-image__photo" />
-```
+- Use a high-quality image (at least 800px wide)
+- Portrait orientation works best (4:5 aspect ratio)
+- The image will be cropped to fit, focused on the top/center
 
 ### Customize Colors
 
